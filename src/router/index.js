@@ -19,11 +19,17 @@ export default new Router({
     },
     {
       path: '/',
-      component: () => import('@/views/Demo'),
+      component: () => import('@/views/index'),
       meta: {
-        title: 'demo页面'
+        title: '西安交通大学项目管理平台'
       },
-      children: [...demo]
+      // 子路由分离
+      // children: [...demo]
+    },
+    {
+      path:'/manage',
+      name:'manage',
+      component: () => import('@/views/pages/index')
     }
   ]
 })

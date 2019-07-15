@@ -88,7 +88,7 @@ module.exports = {
     port: 8020,
     https: false,
     hotOnly: false,
-    open: true,
+    open: false,
     // 查阅 https://github.com/vuejs/vue-docs-zh-cn/blob/master/vue-cli/cli-service.md#配置代理
     proxy: {
       '/apiv1': {
