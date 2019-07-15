@@ -2,8 +2,8 @@
   "name": "vuecli3-template",
   "version": "1.0.1",
   "private": true,
-  "description": "project (http://www.uizph.com)",
-  "author": "zhanphty",
+  "description": "Xi'an jiaotong University peoject manage stage",
+  "author": "xiekui",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -48,5 +48,7 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/xiekui332/Xi-an-Jiaotong-University.git"
 }
